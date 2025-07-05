@@ -9,19 +9,19 @@
   },
   "homepage": "https://new.sstashy.io",
   "license": "GNU GPLv3",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test:base": "react-scripts test --passWithNoTests",
-    "test": "npm run test:base -- --watchAll=false",
-    "test:watch": "npm run test:base -- --watchAll",
-    "test:update": "npm run test:base -- --updateSnapshot --forceExit",
-    "eject": "react-scripts eject",
-    "lint": "eslint \"*/**/*.{js,ts,tsx}\"",
-    "lint:ci": "npm run lint -- --quiet",
-    "lint:fix": "npm run lint -- --fix",
-    "progress": "ts-node -O '{\"module\":\"commonjs\"}' scripts/updateProgress.ts"
-  },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts --openssl-legacy-provider build",
+  "test:base": "react-scripts test --passWithNoTests",
+  "test": "npm run test:base -- --watchAll=false",
+  "test:watch": "npm run test:base -- --watchAll",
+  "test:update": "npm run test:base -- --updateSnapshot --forceExit",
+  "eject": "react-scripts eject",
+  "lint": "eslint \"*/**/*.{js,ts,tsx}\"",
+  "lint:ci": "npm run lint -- --quiet",
+  "lint:fix": "npm run lint -- --fix",
+  "progress": "ts-node -O '{\"module\":\"commonjs\"}' scripts/updateProgress.ts"
+},
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
