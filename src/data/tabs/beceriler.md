@@ -15,7 +15,7 @@
 - Antik çağlarda:
   - Java (3+ Ay)
   - C#/.NET (3+ Yıl)
-  - PHP/MySQL (2+ Yıl)
+  - PHP/MySQL (3+ Yıl)
 
 ### Tercihlerim
 
