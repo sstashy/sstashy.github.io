@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+Sitemap: https://new.sstashy.io/sitemap.xml

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://github.com/sstashy",
+    "icon": ["fab", "github"],
+    "isMain": false
+  },
+  {
+    "name": "İnstagram",
+    "url": "https://www.instagram.com/baris_keser_",
+    "icon": ["fab", "instagram"],
+    "isMain": false
+  },
+  {
+    "name": "Discord",
+    "url": "https://sstashy.io/discord",
+    "icon": ["fab", "discord"],
+    "isMain": true
+  }
+]
