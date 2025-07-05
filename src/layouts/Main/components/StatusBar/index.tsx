@@ -26,7 +26,7 @@ const StatusBar: React.FC = () => {
 
       <span>
         <a
-          href="https://sstashy.io/barisking"
+          href="https://sstashy.io/aneynami"
           rel="noopener noreferrer"
           target="_self"
         >
