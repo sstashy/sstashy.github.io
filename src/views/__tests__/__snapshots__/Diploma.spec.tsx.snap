@@ -46,7 +46,7 @@ exports[`<Diploma /> should render correctly 1`] = `
           <summary>
             <span
               currentitem="false"
-              data-tip="01/01/2025 - 30/06/2025"
+              data-tip="01/01/2022 - 30/06/2022"
             >
               1. Semester
             </span>
